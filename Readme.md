@@ -1,6 +1,7 @@
 # Implementace serveru v jazyce C++ komunikujícího prostřednictvím protokolu HTTP
 
 Projekt do předmetu IPK/2022
+
 Autor : Anvar Kilybayev (xkilyb00@stud.fit.vutbr.cz)
 
 ## Úvod
