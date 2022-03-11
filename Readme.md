@@ -13,7 +13,6 @@ Autor : Anvar Kilybayev (xkilyb00@stud.fit.vutbr.cz)
  - Using TCP (IPv4, IPv6)
  - C++14
  - Pro implementaci serveru používá knihovnu soketů
- - Pro komunikace se serverem by měla být možná jak pomocí webového prohlížeče, tak nástroji typu curl
 
 ## Spuštění projektu
 
