@@ -6,15 +6,16 @@ Autor : Anvar Kilybayev (xkilyb00@stud.fit.vutbr.cz)
 
 ## Úvod
 
-Server poskytuje různé informace o systému. Server naslouchá na zadaném portu a podle url vrací požadované informace. 
+ Server poskytuje různé informace o systému. Server naslouchá na zadaném portu a podle url vrací požadované informace. 
 
-Server musí správně zpracovávat hlavičky HTTP a vytvářet správné HTTP odpovědi. Typ odpovědi bude text/plain. Komunikace se serverem by měla být možná jak pomocí webového prohlížeče, tak nástroji typu wget a curl. Server musí být spustitelný v prostředí Linux Ubuntu 20.04 LTS  (https://ubuntu.com/).
+ Server musí správně zpracovávat hlavičky HTTP a vytvářet správné HTTP odpovědi. Typ odpovědi bude text/plain. Komunikace se serverem by měla být možná jak pomocí webového prohlížeče, tak nástroji typu wget a curl. Server musí být spustitelný v prostředí Linux Ubuntu 20.04 LTS  (https://ubuntu.com/).
 
  - Using TCP (IPv4, IPv6)
  - C++14
  - Pro implementaci serveru používá knihovnu soketů
+ - Pro komunikace se serverem by měla být možná jak pomocí webového prohlížeče, tak nástroji typu curl
 
- ## Spuštění projektu
+## Spuštění projektu
 
  Makefile vytvoří spustitelný soubor hinfosvc
 
@@ -25,3 +26,8 @@ Server musí správně zpracovávat hlavičky HTTP a vytvářet správné HTTP o
   - Získání doménového jména
   - Získání informací o CPU 
   - Aktuální zátěž
+
+## Testování 
+
+ Komunikace se serverem jsem testoval pomocí webového prohlížeče a nástroje typu curl
+ 
